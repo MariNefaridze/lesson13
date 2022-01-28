@@ -1,6 +1,7 @@
 body{
-    padding-left: 140px;
-    padding-right: 140px;
+    /* padding-left: 140px;
+    padding-right: 140px; */
+
 }
 .navbar {
     display: flex;
@@ -9,12 +10,14 @@ body{
     align-items: center;
 }
 .logo{
-    padding-top: 50px;
+    padding-top: 3rem;
+    padding-left: 10%;
+
 }
 .navbar ul {
     display: flex;
     margin: 0;
-    padding: 0;
+    padding-right: 3rem;
 }
 
 .navbar li a {
@@ -46,7 +49,7 @@ body{
     display: block;
     text-decoration: none;
     color: #707070;
-    padding: 1rem;
+    padding: .5rem;
     font-size: 20px;
 
 }
@@ -56,6 +59,11 @@ body{
     }
     .navbar ul{
         display: none;
+        
     }
+
+}
+@media screen  and (max-width:500px){
+    
 
 }
