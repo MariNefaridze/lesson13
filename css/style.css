@@ -179,7 +179,7 @@ footer{
 
 
 }
-@media screen  and (max-width:600px){
+@media screen  and (max-width:650px){
     .flex{
         display: block;
     }
