@@ -67,7 +67,7 @@
     width: 100%;
 }
 .flex section{
-    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     position: relative;
     margin-bottom: 56px;
 }
